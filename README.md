@@ -30,14 +30,3 @@ Various types of questions can be asked across entire semester's worth of conten
 2. **Multi-dimensional Information Retrieval**: Enables students to access and cross-reference information from various sources (lectures, slides, textbooks) and perspectives (annotated vs. regular notes). If a student is looking for a quick summary of a concept, they can get a summary of the concept from the lecture transcript, see the concept in the annotated slides, and see an example of the concept in the textbook. Questions can be asked at varying levels of granularity depending on the student's needs.
 
 
-## Setup and Usage
-
-[Add instructions for setting up and using the project, including any required API keys or dependencies]
-
-## Future Improvements
-
-[List any planned enhancements or areas for future development]
-
-## Kaggle Competition
-
-This project is an entry in a Kaggle competition focused on identifying beneficial use cases for AI models with large context windows. It demonstrates the potential of such models in educational applications, particularly for processing and retrieving information from extensive course materials.
