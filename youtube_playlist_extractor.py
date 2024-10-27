@@ -92,19 +92,11 @@ def extract_playlist_contents(playlist_url):
     return extracted_contents
 
 if __name__ == "__main__":
-    # URL of the CS229 course playlist
     playlist_url = "https://www.youtube.com/playlist?list=PLoROMvodv4rNyWOpJg_Yh4NSqI4Z4vOYy"
     contents = extract_playlist_contents(playlist_url)
 
-    # Create a DataFrame from the extracted contents
     df = pd.DataFrame(contents)
 
-    # Save the contents to a CSV file
     csv_filename = "youtube_playlist_contents.csv"
     df.to_csv(csv_filename, index=False)
     print(f"Contents saved to {csv_filename}")
-
-# Note: This script is part of a larger project to create an AI-powered
-# course assistant for Stanford's CS229 Machine Learning course.
-# It extracts video titles and transcripts from the course's YouTube playlist,
-# which are then used to train an AI model to answer questions about the course content.
