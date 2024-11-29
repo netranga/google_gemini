@@ -22,6 +22,29 @@ Various types of questions can be asked across entire semester's worth of conten
    - Comparison between annotated and regular notes
    - Cross-lecture concept connections (connecting concepts across different lectures)
 
+## Process
+
+#### YouTube Transcript Extraction
+1. **Playlist Processing**: Using the YouTube Data API and youtube-transcript-api, the system:
+   - Fetches all video IDs and titles from the CS229 course playlist
+   - Downloads available transcripts for each lecture video
+   - Combines titles and transcripts into a structured CSV file
+
+2. **File Organization**: Individual lecture transcripts are saved as separate text files in a dedicated transcripts directory, making them easily accessible for the knowledge cache.
+
+#### Slide Consolidation
+The system combines regular lecture slides with their annotated counterparts into unified PDF documents:
+1. **Merging Process**:
+   - Creates title pages to clearly separate original and annotated versions
+   - Combines PDFs in sequence: original slides followed by annotated versions
+   - Outputs consolidated files in a dedicated directory for easy reference
+
+### Knowledge Cache Creation
+Once all materials are processed and organized:
+1. **Cache Initialization**:
+2. **Content Integration**:
+3. **Querying the Cache**:
+
 
 ## Why This Idea?
 
